@@ -1,0 +1,47 @@
+[gd_scene load_steps=2 format=3 uid="uid://c32s8i4orrlrx"]
+
+[ext_resource type="Script" path="res://MainScreenMenus/MainScreenScripts/CaseSelectScreen.gd" id="1_mmd3t"]
+
+[node name="CaseSelectScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 773.0
+offset_bottom = 438.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mmd3t")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="BackButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 46.0
+offset_top = 32.0
+offset_right = 132.0
+offset_bottom = 88.0
+text = "<"
+
+[node name="LevelOne" type="Button" parent="."]
+layout_mode = 0
+offset_left = 262.0
+offset_top = 170.0
+offset_right = 435.0
+offset_bottom = 256.0
+text = "Cookie Jar Case"
+
+[node name="LevelTwo" type="Button" parent="."]
+layout_mode = 0
+offset_left = 513.0
+offset_top = 175.0
+offset_right = 672.0
+offset_bottom = 250.0
+text = "Love Triangle"
+
+[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]
+[connection signal="pressed" from="LevelOne" to="." method="_on_level_one_pressed"]
+[connection signal="pressed" from="LevelTwo" to="." method="_on_level_two_pressed"]

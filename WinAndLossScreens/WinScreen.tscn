@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=3 uid="uid://b4tob1oheyhc4"]
+
+[ext_resource type="Script" path="res://WinAndLossScreens/WinAndLossScripts/WinScreen.gd" id="1_arvvp"]
+[ext_resource type="Texture2D" uid="uid://5w5qtugexeuh" path="res://icon.svg" id="2_bw554"]
+
+[node name="WinScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_arvvp")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(941, 561)
+texture = ExtResource("2_bw554")
+
+[node name="BackButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 771.0
+offset_top = 749.0
+offset_right = 1133.0
+offset_bottom = 881.0
+text = "Main Menu"
+
+[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]

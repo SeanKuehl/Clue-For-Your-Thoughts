@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://d2glikrhof1ov"]
+
+[ext_resource type="Script" path="res://GameMenus/GameScripts/AccuseScreen.gd" id="1_jn4h8"]
+
+[node name="AccuseScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_jn4h8")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="BackButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 41.0
+offset_top = 22.0
+offset_right = 95.0
+offset_bottom = 65.0
+text = "<"
+
+[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]

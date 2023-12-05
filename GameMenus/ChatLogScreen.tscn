@@ -1,0 +1,38 @@
+[gd_scene load_steps=2 format=3 uid="uid://lavvmm2up2ct"]
+
+[ext_resource type="Script" path="res://GameMenus/GameScripts/ChatLogScreen.gd" id="1_dwtsq"]
+
+[node name="ChatLogScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_dwtsq")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="BackButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 39.0
+offset_top = 27.0
+offset_right = 97.0
+offset_bottom = 66.0
+text = "<"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 0
+offset_left = 369.0
+offset_top = 54.0
+offset_right = 1818.0
+offset_bottom = 1001.0
+
+[node name="Label" type="Label" parent="ScrollContainer"]
+custom_minimum_size = Vector2(1000, 800)
+layout_mode = 2
+
+[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]

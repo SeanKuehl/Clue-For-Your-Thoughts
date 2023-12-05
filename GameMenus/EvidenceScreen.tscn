@@ -1,0 +1,50 @@
+[gd_scene load_steps=3 format=3 uid="uid://dpsh3thxlsq7j"]
+
+[ext_resource type="Script" path="res://GameMenus/GameScripts/EvidenceScreen.gd" id="1_cs5de"]
+[ext_resource type="Texture2D" uid="uid://5w5qtugexeuh" path="res://icon.svg" id="2_n73nl"]
+
+[node name="EvidenceScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_cs5de")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="BackButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 35.0
+offset_top = 21.0
+offset_right = 118.0
+offset_bottom = 81.0
+text = "<"
+
+[node name="EvidenceImage" type="Sprite2D" parent="."]
+position = Vector2(973, 486)
+texture = ExtResource("2_n73nl")
+
+[node name="LeftButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 355.0
+offset_top = 945.0
+offset_right = 580.0
+offset_bottom = 1046.0
+text = "<"
+
+[node name="RightButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1300.0
+offset_top = 945.0
+offset_right = 1492.0
+offset_bottom = 1041.0
+text = ">"
+
+[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]
+[connection signal="pressed" from="LeftButton" to="." method="_on_left_button_pressed"]
+[connection signal="pressed" from="RightButton" to="." method="_on_right_button_pressed"]

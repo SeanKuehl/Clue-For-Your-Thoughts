@@ -1,0 +1,83 @@
+[gd_scene load_steps=2 format=3 uid="uid://ct62g3rvxkn2s"]
+
+[ext_resource type="Script" path="res://GameMenus/GameScripts/MainGameScreen.gd" id="1_e2tgg"]
+
+[node name="MainGameScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 775.0
+offset_bottom = 437.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_e2tgg")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="GeneralDescription" type="Button" parent="."]
+layout_mode = 0
+offset_left = 579.0
+offset_top = 294.0
+offset_right = 755.0
+offset_bottom = 386.0
+text = "General Description"
+
+[node name="Interviews" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1140.0
+offset_top = 305.0
+offset_right = 1333.0
+offset_bottom = 388.0
+text = "Interviews"
+
+[node name="ChatLogs" type="Button" parent="."]
+layout_mode = 0
+offset_left = 579.0
+offset_top = 459.0
+offset_right = 757.0
+offset_bottom = 524.0
+text = "Chat Logs"
+
+[node name="CaseFacts" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1147.0
+offset_top = 465.0
+offset_right = 1341.0
+offset_bottom = 536.0
+text = "Case Facts"
+
+[node name="Evidence" type="Button" parent="."]
+layout_mode = 0
+offset_left = 570.0
+offset_top = 606.0
+offset_right = 759.0
+offset_bottom = 676.0
+text = "Evidence"
+
+[node name="Accuse" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1146.0
+offset_top = 600.0
+offset_right = 1338.0
+offset_bottom = 680.0
+text = "Accuse"
+
+[node name="BackButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 46.0
+offset_right = 130.0
+offset_bottom = 101.0
+text = "<"
+
+[connection signal="pressed" from="GeneralDescription" to="." method="_on_general_description_pressed"]
+[connection signal="pressed" from="Interviews" to="." method="_on_interviews_pressed"]
+[connection signal="pressed" from="ChatLogs" to="." method="_on_chat_logs_pressed"]
+[connection signal="pressed" from="CaseFacts" to="." method="_on_case_facts_pressed"]
+[connection signal="pressed" from="Evidence" to="." method="_on_evidence_pressed"]
+[connection signal="pressed" from="Accuse" to="." method="_on_accuse_pressed"]
+[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]
