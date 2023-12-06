@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://lavvmm2up2ct"]
+[gd_scene load_steps=3 format=3 uid="uid://lavvmm2up2ct"]
 
 [ext_resource type="Script" path="res://GameMenus/GameScripts/ChatLogScreen.gd" id="1_dwtsq"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_j472o"]
+font_size = 24
 
 [node name="ChatLogScreen" type="Control"]
 layout_mode = 3
@@ -34,5 +37,6 @@ offset_bottom = 1001.0
 [node name="Label" type="Label" parent="ScrollContainer"]
 custom_minimum_size = Vector2(1000, 800)
 layout_mode = 2
+label_settings = SubResource("LabelSettings_j472o")
 
 [connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]

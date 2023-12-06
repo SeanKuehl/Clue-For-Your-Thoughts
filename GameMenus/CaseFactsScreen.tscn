@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://dxhlk7jaqg7vy"]
+[gd_scene load_steps=3 format=3 uid="uid://dxhlk7jaqg7vy"]
 
 [ext_resource type="Script" path="res://GameMenus/GameScripts/CaseFactsScreen.gd" id="1_4a7x2"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_4hsyx"]
+font_size = 24
 
 [node name="CaseFactsScreen" type="Control"]
 layout_mode = 3
@@ -30,5 +33,6 @@ offset_left = 189.0
 offset_top = 96.0
 offset_right = 1796.0
 offset_bottom = 1029.0
+label_settings = SubResource("LabelSettings_4hsyx")
 
 [connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]

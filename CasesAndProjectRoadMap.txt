@@ -3,7 +3,8 @@ cases to add:
 -a case where everyone is lying, but only one is lying about not killing the person.
 -a case where something visual in one of the evidence pictures leads you to the killer
 -a case where several people tried to kill someone but it actually ended up being suicide(they did one of those stupid tik tok trends that got them killed etc.)
--a case where no one is told explicitly what happened to them and the killer gives it away by saying something like "It's a shame they were run over"
+-a case where no one is told explicitly what happened to the victim and the killer gives it away by saying something like "It's a shame they were run over"
+-
 
 
 TODO:
@@ -16,4 +17,5 @@ TODO:
 -make at least 10 cases
 -make text size larger so menus can be more easily read
 -align buttons and other visual items so that nothing looks off
+-add icons/images for all buttons(to fix small text in buttonsissue)
 

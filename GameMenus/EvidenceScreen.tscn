@@ -1,7 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://dpsh3thxlsq7j"]
+[gd_scene load_steps=4 format=3 uid="uid://dpsh3thxlsq7j"]
 
 [ext_resource type="Script" path="res://GameMenus/GameScripts/EvidenceScreen.gd" id="1_cs5de"]
 [ext_resource type="Texture2D" uid="uid://5w5qtugexeuh" path="res://icon.svg" id="2_n73nl"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_us7xr"]
+font_size = 24
 
 [node name="EvidenceScreen" type="Control"]
 layout_mode = 3
@@ -51,6 +54,7 @@ offset_left = 454.0
 offset_top = 55.0
 offset_right = 1502.0
 offset_bottom = 176.0
+label_settings = SubResource("LabelSettings_us7xr")
 horizontal_alignment = 1
 
 [connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]

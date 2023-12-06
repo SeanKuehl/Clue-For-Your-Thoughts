@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://dprac6v5nj62y"]
+[gd_scene load_steps=3 format=3 uid="uid://dprac6v5nj62y"]
 
 [ext_resource type="Script" path="res://GameMenus/GameScripts/InterviewsScreen.gd" id="1_b42r6"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ex3sg"]
+font_size = 24
 
 [node name="InterviewsScreen" type="Control"]
 layout_mode = 3
@@ -34,5 +37,6 @@ offset_bottom = 1024.0
 [node name="Label" type="Label" parent="ScrollContainer"]
 custom_minimum_size = Vector2(1000, 800)
 layout_mode = 2
+label_settings = SubResource("LabelSettings_ex3sg")
 
 [connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]
