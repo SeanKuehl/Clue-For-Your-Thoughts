@@ -1,0 +1,19 @@
+cases to add:
+-there are interviews from four people, but the actual killer is one of their son's who turned on a smart blender with his hacking skills and killed the guy(you know by something the father says about him)
+-a case where everyone is lying, but only one is lying about not killing the person.
+-a case where something visual in one of the evidence pictures leads you to the killer
+-a case where several people tried to kill someone but it actually ended up being suicide(they did one of those stupid tik tok trends that got them killed etc.)
+-a case where no one is told explicitly what happened to them and the killer gives it away by saying something like "It's a shame they were run over"
+
+
+TODO:
+-add victory image to victory menu
+-add defeat image to lose menu
+-color menus dark blue(instead of current default black)
+-add gallery of images from successfully completed cases and showing completed cases on case selection screen(remember text file read/write on executable thing!)
+-add music to menus
+-make and add logo to main menu
+-make at least 10 cases
+-make text size larger so menus can be more easily read
+-align buttons and other visual items so that nothing looks off
+
