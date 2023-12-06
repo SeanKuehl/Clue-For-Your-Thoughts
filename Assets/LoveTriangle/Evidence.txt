@@ -1,2 +1,2 @@
-bloodyCrock.png
-bloodyKnife.png
+bloodyCrock.png,A bloody shoe found too far from the body to be covered as part of a struggle
+bloodyKnife.png,The knife was found dropped near the body

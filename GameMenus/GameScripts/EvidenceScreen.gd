@@ -2,6 +2,7 @@ extends Control
 
 var imageDir = ""
 var imageList = []
+var descriptionList = []
 var imageIndex = 0
 
 # Called when the node enters the scene tree for the first time.
@@ -11,18 +12,23 @@ func _ready():
 	imageDir = Settings.caseDirectory+"Images/"
 	
 	$EvidenceImage.texture = load(imageDir+imageList[imageIndex])
+	$EvidenceDescription.text = descriptionList[imageIndex]
 
 
 func ReadPictures(content):
+	var bothValues = ""
 	
 	for x in content:
 		if x == "" or x == " ":
 			pass
 		else:
-			imageList.append(x)
+			bothValues = x.split(",")
+			imageList.append(bothValues[0])
+			descriptionList.append(bothValues[1])
 		
 func LoadPicture():		
 	$EvidenceImage.texture = load(imageDir+imageList[imageIndex])
+	$EvidenceDescription.text = descriptionList[imageIndex]
 
 
 func _on_back_button_pressed():
