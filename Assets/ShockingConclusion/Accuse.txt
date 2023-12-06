@@ -1,0 +1,4 @@
+Elise,1
+Patricia,0
+Stan,0
+David,0
