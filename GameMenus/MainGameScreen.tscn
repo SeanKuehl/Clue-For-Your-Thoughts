@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://ct62g3rvxkn2s"]
+[gd_scene load_steps=3 format=3 uid="uid://ct62g3rvxkn2s"]
 
 [ext_resource type="Script" path="res://GameMenus/GameScripts/MainGameScreen.gd" id="1_e2tgg"]
+[ext_resource type="Theme" uid="uid://2u7lnkn35v0c" path="res://GlobalTheme.tres" id="1_jqyga"]
 
 [node name="MainGameScreen" type="Control"]
 layout_mode = 3
@@ -11,6 +12,7 @@ offset_right = 775.0
 offset_bottom = 437.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("1_jqyga")
 script = ExtResource("1_e2tgg")
 
 [node name="Panel" type="Panel" parent="."]

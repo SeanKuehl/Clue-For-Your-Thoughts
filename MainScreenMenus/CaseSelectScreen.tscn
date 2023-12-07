@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://c32s8i4orrlrx"]
+[gd_scene load_steps=3 format=3 uid="uid://c32s8i4orrlrx"]
 
 [ext_resource type="Script" path="res://MainScreenMenus/MainScreenScripts/CaseSelectScreen.gd" id="1_mmd3t"]
+[ext_resource type="Theme" uid="uid://2u7lnkn35v0c" path="res://GlobalTheme.tres" id="1_y4jaw"]
 
 [node name="CaseSelectScreen" type="Control"]
 layout_mode = 3
@@ -11,6 +12,7 @@ offset_right = 773.0
 offset_bottom = 438.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("1_y4jaw")
 script = ExtResource("1_mmd3t")
 
 [node name="Panel" type="Panel" parent="."]

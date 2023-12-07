@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://dxhlk7jaqg7vy"]
+[gd_scene load_steps=4 format=3 uid="uid://dxhlk7jaqg7vy"]
 
 [ext_resource type="Script" path="res://GameMenus/GameScripts/CaseFactsScreen.gd" id="1_4a7x2"]
+[ext_resource type="Theme" uid="uid://2u7lnkn35v0c" path="res://GlobalTheme.tres" id="1_ghiqw"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_4hsyx"]
 font_size = 24
@@ -12,6 +13,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("1_ghiqw")
 script = ExtResource("1_4a7x2")
 
 [node name="Panel" type="Panel" parent="."]

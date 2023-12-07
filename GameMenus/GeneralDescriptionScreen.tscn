@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://dp62xykpvnb07"]
+[gd_scene load_steps=5 format=3 uid="uid://dp62xykpvnb07"]
 
 [ext_resource type="Script" path="res://GameMenus/GameScripts/GeneralDescriptionScreen.gd" id="1_0tfxn"]
+[ext_resource type="Theme" uid="uid://2u7lnkn35v0c" path="res://GlobalTheme.tres" id="1_gk61h"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_86y5y"]
 font_size = 36
@@ -15,6 +16,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("1_gk61h")
 script = ExtResource("1_0tfxn")
 
 [node name="Panel" type="Panel" parent="."]

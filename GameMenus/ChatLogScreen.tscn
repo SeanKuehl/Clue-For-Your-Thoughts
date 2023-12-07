@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://lavvmm2up2ct"]
+[gd_scene load_steps=4 format=3 uid="uid://lavvmm2up2ct"]
 
 [ext_resource type="Script" path="res://GameMenus/GameScripts/ChatLogScreen.gd" id="1_dwtsq"]
+[ext_resource type="Theme" uid="uid://2u7lnkn35v0c" path="res://GlobalTheme.tres" id="1_j8xyy"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_j472o"]
 font_size = 24
@@ -12,6 +13,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("1_j8xyy")
 script = ExtResource("1_dwtsq")
 
 [node name="Panel" type="Panel" parent="."]
