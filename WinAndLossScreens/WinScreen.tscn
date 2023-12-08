@@ -1,7 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://b4tob1oheyhc4"]
+[gd_scene load_steps=5 format=3 uid="uid://b4tob1oheyhc4"]
 
 [ext_resource type="Script" path="res://WinAndLossScreens/WinAndLossScripts/WinScreen.gd" id="1_arvvp"]
-[ext_resource type="Texture2D" uid="uid://5w5qtugexeuh" path="res://icon.svg" id="2_bw554"]
+[ext_resource type="Theme" uid="uid://2u7lnkn35v0c" path="res://GlobalTheme.tres" id="2_2bk5x"]
+[ext_resource type="Texture2D" uid="uid://whv0o6x74g0s" path="res://Assets/Menus/WinImage.png" id="3_ahu1y"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_7od3c"]
+font_size = 36
 
 [node name="WinScreen" type="Control"]
 layout_mode = 3
@@ -16,17 +20,28 @@ script = ExtResource("1_arvvp")
 layout_mode = 0
 offset_right = 1920.0
 offset_bottom = 1080.0
-
-[node name="Icon" type="Sprite2D" parent="."]
-position = Vector2(941, 561)
-texture = ExtResource("2_bw554")
+theme = ExtResource("2_2bk5x")
 
 [node name="BackButton" type="Button" parent="."]
 layout_mode = 0
-offset_left = 771.0
-offset_top = 749.0
-offset_right = 1133.0
-offset_bottom = 881.0
+offset_left = 788.0
+offset_top = 875.0
+offset_right = 1150.0
+offset_bottom = 1007.0
 text = "Main Menu"
+
+[node name="WinImage" type="Sprite2D" parent="."]
+position = Vector2(981, 397)
+texture = ExtResource("3_ahu1y")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 418.0
+offset_top = 766.0
+offset_right = 1536.0
+offset_bottom = 863.0
+text = "You got 'em detective! Congratulations on another case cracked."
+label_settings = SubResource("LabelSettings_7od3c")
+horizontal_alignment = 1
 
 [connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]
