@@ -1,7 +1,6 @@
 cases to add:
 -there are interviews from four people, but the actual killer is one of their son's who turned on a smart blender with his hacking skills and killed the guy(you know by something the father says about him)
 -a case where something visual in one of the evidence pictures leads you to the killer
--a case where several people tried to kill someone but it actually ended up being suicide(they did one of those stupid tik tok trends that got them killed etc.)
 -a case where no one is told explicitly what happened to the victim and the killer gives it away by saying something like "It's a shame they were run over"
 -a case where you must use small details from the crime scene to figure out who it was(like someone was diabetic and the killer ate a cake for example)
 -a case where someone is killed by their smart home's AI assistant(they argue with it etc)
@@ -13,8 +12,6 @@ cases to add:
 
 TODO:
 -scroll text not working!(matter on Dirty Laundry case!)
--add victory image to victory menu
--add defeat image to lose menu
 -add gallery of images from successfully completed cases and showing completed cases on case selection screen(remember text file read/write on executable thing!)
 -add music to menus
 -make and add logo to main menu
