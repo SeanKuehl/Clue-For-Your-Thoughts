@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://cq2p807j0vc8p"]
+[gd_scene load_steps=3 format=3 uid="uid://cq2p807j0vc8p"]
 
 [ext_resource type="Script" path="res://GameMenus/GameScripts/AccuseChoice.gd" id="1_hm58a"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cijrc"]
+bg_color = Color(0.141176, 0.141176, 0.141176, 1)
 
 [node name="AccuseChoice" type="Control"]
 layout_mode = 3
@@ -15,6 +18,7 @@ script = ExtResource("1_hm58a")
 layout_mode = 0
 offset_right = 300.0
 offset_bottom = 100.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_cijrc")
 
 [node name="AccusedName" type="Label" parent="."]
 layout_mode = 0

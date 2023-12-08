@@ -32,3 +32,9 @@ func _on_level_three_pressed():
 	Settings.caseName = "Shocking Conclusion"
 	Settings.caseDirectory = "res://Assets/ShockingConclusion/"
 	get_tree().change_scene_to_file("res://GameMenus/MainGameScreen.tscn")
+
+
+func _on_level_four_pressed():
+	Settings.caseName = "Dirty Laundry"
+	Settings.caseDirectory = "res://Assets/Dirty Laundry/"
+	get_tree().change_scene_to_file("res://GameMenus/MainGameScreen.tscn")

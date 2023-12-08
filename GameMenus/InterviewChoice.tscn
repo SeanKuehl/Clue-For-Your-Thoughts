@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://bd6a7st2c3owb"]
+[gd_scene load_steps=3 format=3 uid="uid://bd6a7st2c3owb"]
 
 [ext_resource type="Script" path="res://GameMenus/GameScripts/InterviewChoice.gd" id="1_ompfd"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_50g3p"]
+bg_color = Color(0.140447, 0.140447, 0.140447, 1)
 
 [node name="InterviewChoice" type="Control"]
 layout_mode = 3
@@ -15,6 +18,7 @@ script = ExtResource("1_ompfd")
 layout_mode = 0
 offset_right = 300.0
 offset_bottom = 112.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_50g3p")
 
 [node name="InterviewName" type="Label" parent="."]
 layout_mode = 0

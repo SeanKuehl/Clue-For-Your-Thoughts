@@ -1,0 +1,113 @@
+#
+Nate
+1
+Did you know the woman that was murdered?
+1
+Yes, she was a family friend.
+1
+Do you know anyone who might have had a reason to kill her?
+1
+No, she was a nice lady. Nice to everyone.
+1
+When was the last time you visited her?
+1
+About a month ago to have lunch.
+1
+Why was your black hair found on the hair brush in her bathroom?
+1
+I used the bathroom to comb my hair, I guess she hadn't washed it since.
+1
+Can you tell us where you were at the time of the murder?
+1
+I was getting groceries at a nearby store.
+1
+We pulled the camera footage from that store. You weren't there. Where were you really?
+1
+I'm telling you I was there! Look again!
+1
+#
+Claire
+1
+Did you know the woman that was murdered?
+1
+Not really, just an aquaintance.
+1
+Do you know anyone who might have had a reason to kill her?
+1
+No.
+1
+Witnesses provided few details. How do we know you didn't kill her?
+1
+The one detail they have is that they worse black, that's the opposite of my color.
+1
+Where were you at the time of the murder?
+1
+I was visiting a friend.
+1
+Does this friend have any known memory problems?
+1
+Not that I know of.
+1
+Then how does this friend not recall you recent visit?
+1
+I want a laywer!
+1
+#
+Tina
+1
+Did you hear about the woman that was murdered?
+1
+Yes, it's why I'm here isn't it?
+1
+Do you know anyone who might have had a reason to kill her?
+1
+Nope I didn't really know her at all
+1
+You were charged with braking into her house a few months back though, correct?
+1
+Hey so what? You don't know me, I'm no killer!
+1
+You did steal money and alchohol from her home, didn't you?
+1
+Yes and I'm sorry. You can't arrest me twice idiot!
+1
+Where were you at the time of the murder?
+1
+I was at home with my husband.
+1
+Funny, your husband says he never saw you that day.
+1
+Yeah well there's a lot of things about me he doesn't see.
+1
+Your nieghbours also said they didn't hear you cussing loudly as you usually do.
+1
+What so having a mouth is illegal now?
+1
+#
+Reginald
+1
+Did you hear about the woman that was murdered?
+1
+Yes
+1
+Did you know her?
+1
+We had met a few times
+1
+Did you know anyone who may have had a reason to kill her?
+1
+No
+1
+When was the last time you saw her?
+1
+About a month ago
+1
+Where were you at the time of the murder?
+1
+Volunteering at a nursing home
+1
+There are no nursing homes in this city. Where were you.
+1
+Look harder
+1
+#

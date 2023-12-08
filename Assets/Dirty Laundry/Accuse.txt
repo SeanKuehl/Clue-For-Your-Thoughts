@@ -1,0 +1,4 @@
+Nate,0
+Claire,0
+Tina,0
+Reginald,1
