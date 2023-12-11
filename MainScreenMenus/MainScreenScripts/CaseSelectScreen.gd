@@ -50,3 +50,9 @@ func _on_level_six_pressed():
 	Settings.caseName = "Final Apparrel"
 	Settings.caseDirectory = "res://Assets/Final Apparrel/"
 	get_tree().change_scene_to_file("res://GameMenus/MainGameScreen.tscn")
+
+
+func _on_level_seven_pressed():
+	Settings.caseName = "Black and White"
+	Settings.caseDirectory = "res://Assets/Black and White/"
+	get_tree().change_scene_to_file("res://GameMenus/MainGameScreen.tscn")

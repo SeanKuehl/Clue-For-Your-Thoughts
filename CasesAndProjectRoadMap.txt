@@ -1,7 +1,6 @@
 cases to add:
 -there are interviews from four people, but the actual killer is one of their son's who turned on a smart blender with his hacking skills and killed the guy(you know by something the father says about him)
 -a case where something visual in one of the evidence pictures leads you to the killer
--a case where no one is told explicitly what happened to the victim and the killer gives it away by saying something like "It's a shame they were run over"
 -a case where you must use small details from the crime scene to figure out who it was(like someone was diabetic and the killer ate a cake for example)
 -a case where someone is killed by their smart home's AI assistant(they argue with it etc)
 -a case where someone immediatly confesses to the crime but is actually protecting for someone(the person you least expect)
@@ -9,6 +8,7 @@ cases to add:
 -a case where there is this obvious suspect guy who is framing this calm peaceful girl but there's something that tells you it is actually him
 -a case where a kid is interviewed and just goes "your mom" jokes but something in his interview tells you who it is, like once going "my mom"
 -case where timing is everything(but the stopped clock as evidence has been tampered with)
+-a case where a mentally unstable person is the only witness but he tells you "penguin" killed him which leads you to the guy who always wears suits
 
 
 TODO:
@@ -19,4 +19,5 @@ TODO:
 -make at least 10 cases
 -align buttons and other visual items so that nothing looks off
 -add icons/images for all buttons(to fix small text in buttonsissue)
+-add "no items" thing for each menu to show when there's nothing to show
 

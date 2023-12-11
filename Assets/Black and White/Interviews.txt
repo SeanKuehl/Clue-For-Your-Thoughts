@@ -1,0 +1,66 @@
+#
+Liam
+1
+Is it true that you were deemed incapable of looking after yourself due to psychological reasons?
+1
+Doctor man say
+1
+You claim to be a witness to the murder?
+1
+Man make him blue
+1
+Can you tell us what you saw?
+1
+Man make him blue then ran ran ran
+1
+Can you tell us who killed the man?
+1
+Penguin! Penguin make him blue
+1
+In what direction did the killer run after the murder?
+1
+penguin run to pretty lady place
+1
+#
+Hellen
+1
+Did you hear about Thomas?
+1
+Yes, he was visiting friends at the hospital when he was murdered
+1
+where were you at the time of the murder?
+1
+I was on shift at the same hospital
+1
+So it was your job to care for the patients?
+1
+Yes
+1
+If you were in the hospital why didn't you notice the murder until much later?
+1
+It was really busy that day and I was at the nurses station
+1
+Did you know anyone who would want to kill Thomas?
+1
+I heard he was a business man, maybe one of his former associates
+1
+#
+Steven
+1
+Did you hear about Thomas?
+1
+Yeah, he was a good friend of mine
+1
+where were you at the time of the murder?
+1
+I was at home organizing my suits. I never go anywhere without formal wear
+1
+Did you think anyone would have a reason to kill him?
+1
+besides his smug look, not really
+1
+What do you do for a living?
+1
+I'm an accountant
+1
+#
