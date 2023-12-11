@@ -1,0 +1,4 @@
+Sally Dern,0
+Jack Werner,0
+Thomas Saul,1
+Delia Quintin,0

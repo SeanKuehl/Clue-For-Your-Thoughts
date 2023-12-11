@@ -68,9 +68,18 @@ offset_right = 1374.0
 offset_bottom = 254.0
 text = "Famous Forever"
 
+[node name="LevelSix" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1415.0
+offset_top = 176.0
+offset_right = 1587.0
+offset_bottom = 258.0
+text = "Final Apparrel"
+
 [connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]
 [connection signal="pressed" from="LevelOne" to="." method="_on_level_one_pressed"]
 [connection signal="pressed" from="LevelTwo" to="." method="_on_level_two_pressed"]
 [connection signal="pressed" from="LevelThree" to="." method="_on_level_three_pressed"]
 [connection signal="pressed" from="LevelFour" to="." method="_on_level_four_pressed"]
 [connection signal="pressed" from="LevelFive" to="." method="_on_level_five_pressed"]
+[connection signal="pressed" from="LevelSix" to="." method="_on_level_six_pressed"]

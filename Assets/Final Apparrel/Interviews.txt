@@ -1,0 +1,81 @@
+#
+Sally Dern
+1
+Did you hear about Jean?
+1
+Yes, she was my best friend.
+1
+Where were you at the time of the murder?
+1
+I was at my home watching television
+1
+Did you know anyone who would want to kill Jean?
+1
+No she was nice and trusted everyone. Sometimes too trusting even.
+1
+You were messaging her the day before she died, correct?
+1
+Yes
+1
+What did you talk about?
+1
+Just some relationship stuff
+1
+#
+Jack Werner
+1
+Did you hear about Jean?
+1
+Yes, she was my girlfriend
+1
+where were you at the time of the murder?
+1
+I was meeting another girl
+1
+Did you know anyone who would want to kill Jean?
+1
+No, but then what difference would killing her make?
+1
+Was your relationship at an end? Was that why you were seeing other women?
+1
+No, just having fun
+1
+#
+Delia Quintin
+1
+Did you hear about Jean?
+1
+Yes, I knew her well
+1
+What was your relationship with Jean?
+1
+I was her boss
+1
+You were her employer?
+1
+Yes
+1
+Can you think of anyone who wanted her dead? Any colleagues?
+1
+No, she was a nice girl. Mostly
+1
+Where were you at the time of the murder?
+1
+I was at work
+1
+#
+Thomas Saul
+1
+Did you hear about Jean?
+1
+Yes, she was my friend's girlfriend
+1
+Can you think of anyone who would want to kill her?
+1
+Yes, some people were angry with her but nothing specific
+1
+Where were you around the time of the murder
+1
+Getting rid of some old denim
+1
+#

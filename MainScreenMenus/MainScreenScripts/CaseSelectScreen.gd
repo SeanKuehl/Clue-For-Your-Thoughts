@@ -44,3 +44,9 @@ func _on_level_five_pressed():
 	Settings.caseName = "Famous Forever"
 	Settings.caseDirectory = "res://Assets/FamousForever/"
 	get_tree().change_scene_to_file("res://GameMenus/MainGameScreen.tscn")
+
+
+func _on_level_six_pressed():
+	Settings.caseName = "Final Apparrel"
+	Settings.caseDirectory = "res://Assets/Final Apparrel/"
+	get_tree().change_scene_to_file("res://GameMenus/MainGameScreen.tscn")
