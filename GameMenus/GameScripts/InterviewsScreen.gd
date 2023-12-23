@@ -2,6 +2,8 @@ extends Control
 
 const interviewChoiceObject = preload("res://GameMenus/InterviewChoice.tscn")
 var interviewList = []
+var currentInterview = ""
+var currentInterviewScrollIndex = 1
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -31,6 +33,7 @@ func PlaceInterviewObjects(interviews):
 		
 		
 func ChoicePressed(passedName):
+	currentInterviewScrollIndex = 1
 	var collectedInterview = ""
 	
 	for inter in interviewList:
@@ -47,8 +50,9 @@ func ChoicePressed(passedName):
 				
 				elif x % 2 == 0:
 					collectedInterview += "A: "+inter[x]+"\n"
-					
-	$ScrollContainer/Label.text = collectedInterview
+				
+	currentInterview = collectedInterview	
+	$Label.text = collectedInterview
 	
 	
 func ParseInterviews(content):
@@ -73,6 +77,24 @@ func ParseInterviews(content):
 	return interviews
 			
 
+func ScrollInterview():
+	
+	if currentInterview != "":
+		var charactersToScroll = 100
+		var scrollAmount = charactersToScroll * currentInterviewScrollIndex
+		
+		if scrollAmount < len(currentInterview) - charactersToScroll:
+			var scrollInterview = currentInterview.substr(scrollAmount)
+			$Label.text = scrollInterview
+
+
 
 func _on_back_button_pressed():
 	get_tree().change_scene_to_file("res://GameMenus/MainGameScreen.tscn")
+
+
+
+func _on_scroll_down_pressed():
+	if currentInterview != "":
+		currentInterviewScrollIndex += 1
+		ScrollInterview()

@@ -3,7 +3,7 @@
 [ext_resource type="Theme" uid="uid://2u7lnkn35v0c" path="res://GlobalTheme.tres" id="1_6ygnq"]
 [ext_resource type="Script" path="res://GameMenus/GameScripts/InterviewsScreen.gd" id="1_b42r6"]
 
-[sub_resource type="LabelSettings" id="LabelSettings_ex3sg"]
+[sub_resource type="LabelSettings" id="LabelSettings_860xe"]
 font_size = 24
 
 [node name="InterviewsScreen" type="Control"]
@@ -13,6 +13,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 2
 theme = ExtResource("1_6ygnq")
 script = ExtResource("1_b42r6")
 
@@ -20,6 +21,7 @@ script = ExtResource("1_b42r6")
 layout_mode = 0
 offset_right = 1920.0
 offset_bottom = 1080.0
+mouse_filter = 2
 
 [node name="BackButton" type="Button" parent="."]
 layout_mode = 0
@@ -29,16 +31,22 @@ offset_right = 187.0
 offset_bottom = 109.0
 text = "<"
 
-[node name="ScrollContainer" type="ScrollContainer" parent="."]
+[node name="ScrollDown" type="Button" parent="."]
 layout_mode = 0
-offset_left = 402.0
-offset_top = 70.0
-offset_right = 1820.0
-offset_bottom = 1024.0
+offset_left = 981.0
+offset_top = 57.0
+offset_right = 1053.0
+offset_bottom = 131.0
+text = "|
+\\/"
 
-[node name="Label" type="Label" parent="ScrollContainer"]
-custom_minimum_size = Vector2(1000, 800)
-layout_mode = 2
-label_settings = SubResource("LabelSettings_ex3sg")
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 372.0
+offset_top = 170.0
+offset_right = 1730.0
+offset_bottom = 943.0
+label_settings = SubResource("LabelSettings_860xe")
 
 [connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]
+[connection signal="pressed" from="ScrollDown" to="." method="_on_scroll_down_pressed"]

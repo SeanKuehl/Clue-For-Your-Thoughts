@@ -13,6 +13,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 2
 theme = ExtResource("1_j8xyy")
 script = ExtResource("1_dwtsq")
 
@@ -20,6 +21,16 @@ script = ExtResource("1_dwtsq")
 layout_mode = 0
 offset_right = 1920.0
 offset_bottom = 1080.0
+mouse_filter = 2
+
+[node name="Label" type="Label" parent="."]
+custom_minimum_size = Vector2(1000, 800)
+layout_mode = 2
+offset_left = 369.0
+offset_top = 145.0
+offset_right = 1718.0
+offset_bottom = 1014.0
+label_settings = SubResource("LabelSettings_j472o")
 
 [node name="BackButton" type="Button" parent="."]
 layout_mode = 0
@@ -29,16 +40,14 @@ offset_right = 97.0
 offset_bottom = 66.0
 text = "<"
 
-[node name="ScrollContainer" type="ScrollContainer" parent="."]
+[node name="ScrollDown" type="Button" parent="."]
 layout_mode = 0
-offset_left = 369.0
-offset_top = 54.0
-offset_right = 1818.0
-offset_bottom = 1001.0
-
-[node name="Label" type="Label" parent="ScrollContainer"]
-custom_minimum_size = Vector2(1000, 800)
-layout_mode = 2
-label_settings = SubResource("LabelSettings_j472o")
+offset_left = 906.0
+offset_top = 28.0
+offset_right = 993.0
+offset_bottom = 89.0
+text = "|
+\\/"
 
 [connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]
+[connection signal="pressed" from="ScrollDown" to="." method="_on_scroll_down_pressed"]

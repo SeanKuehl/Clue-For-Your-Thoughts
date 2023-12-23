@@ -12,7 +12,6 @@ cases to add:
 
 
 TODO:
--scroll text not working!(matter on Dirty Laundry case!)
 -add gallery of images from successfully completed cases and showing completed cases on case selection screen(remember text file read/write on executable thing!)
 -add music to menus
 -make and add logo to main menu
@@ -20,4 +19,5 @@ TODO:
 -align buttons and other visual items so that nothing looks off
 -add icons/images for all buttons(to fix small text in buttonsissue)
 -add "no items" thing for each menu to show when there's nothing to show
+
 
