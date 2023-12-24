@@ -1,0 +1,3 @@
+Eugene,1
+Victor,0
+Henry,0

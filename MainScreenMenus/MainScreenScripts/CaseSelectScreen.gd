@@ -56,3 +56,9 @@ func _on_level_seven_pressed():
 	Settings.caseName = "Black and White"
 	Settings.caseDirectory = "res://Assets/Black and White/"
 	get_tree().change_scene_to_file("res://GameMenus/MainGameScreen.tscn")
+
+
+func _on_level_eight_pressed():
+	Settings.caseName = "Killer Recipe"
+	Settings.caseDirectory = "res://Assets/KillerRecipe/"
+	get_tree().change_scene_to_file("res://GameMenus/MainGameScreen.tscn")

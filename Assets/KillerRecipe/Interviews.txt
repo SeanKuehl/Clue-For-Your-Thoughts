@@ -1,0 +1,66 @@
+#
+Eugene
+1
+Did you hear about Jack?
+1
+I heard he was killed
+1
+Do you have any relation to Jack?
+1
+No I don’t, I only knew him loosely
+1
+Where were you at the time of the killing?
+1
+I can’t quite remember
+1
+Why can’t you remember where you were?
+1
+My nut allergy has been acting up lately
+1
+How severe is your nut allergy?
+1
+The symptoms start when I go anywere near them
+1
+#
+Victor
+1
+Did you hear about Jack?
+1
+Yes I heard
+1
+Did you have any relation to the victim?
+1
+Yes, we’re brothers
+1
+When was the last time you visited him?
+1
+I think it’s been years
+1
+And why is that?
+1
+We’ve had a falling out
+1
+Where were you at the time of the murder?
+1
+I was at home in another city
+1
+#
+Henry
+1
+Did you hear about Jack?
+1
+Yeah, another one bites the dust
+1
+Did you have any relation to the victim?
+1
+No, I don’t associate with losers
+1
+You don’t seem to have much compassion for the victim, why is that?
+1
+Just never been the touchy feely type I guess
+1
+Where were you at the time of the murder?
+1
+I was at my girlfriend’s place at the other side of town
+1
+#

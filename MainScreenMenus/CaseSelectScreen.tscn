@@ -84,6 +84,14 @@ offset_right = 1840.0
 offset_bottom = 263.0
 text = "Black and White"
 
+[node name="LevelEight" type="Button" parent="."]
+layout_mode = 0
+offset_left = 257.0
+offset_top = 321.0
+offset_right = 436.0
+offset_bottom = 411.0
+text = "Killer Recipe"
+
 [connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]
 [connection signal="pressed" from="LevelOne" to="." method="_on_level_one_pressed"]
 [connection signal="pressed" from="LevelTwo" to="." method="_on_level_two_pressed"]
@@ -92,3 +100,4 @@ text = "Black and White"
 [connection signal="pressed" from="LevelFive" to="." method="_on_level_five_pressed"]
 [connection signal="pressed" from="LevelSix" to="." method="_on_level_six_pressed"]
 [connection signal="pressed" from="LevelSeven" to="." method="_on_level_seven_pressed"]
+[connection signal="pressed" from="LevelEight" to="." method="_on_level_eight_pressed"]
