@@ -62,3 +62,9 @@ func _on_level_eight_pressed():
 	Settings.caseName = "Killer Recipe"
 	Settings.caseDirectory = "res://Assets/KillerRecipe/"
 	get_tree().change_scene_to_file("res://GameMenus/MainGameScreen.tscn")
+
+
+func _on_level_nine_pressed():
+	Settings.caseName = "Artificial Foolishness"
+	Settings.caseDirectory = "res://Assets/Artificial Foolishness/"
+	get_tree().change_scene_to_file("res://GameMenus/MainGameScreen.tscn")
