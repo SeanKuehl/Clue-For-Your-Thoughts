@@ -74,3 +74,9 @@ func _on_level_ten_pressed():
 	Settings.caseName = "Man Above"
 	Settings.caseDirectory = "res://Assets/ManAbove/"
 	get_tree().change_scene_to_file("res://GameMenus/MainGameScreen.tscn")
+
+
+func _on_level_eleven_pressed():
+	Settings.caseName = "Headlines"
+	Settings.caseDirectory = "res://Assets/Headlines/"
+	get_tree().change_scene_to_file("res://GameMenus/MainGameScreen.tscn")

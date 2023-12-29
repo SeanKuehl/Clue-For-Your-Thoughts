@@ -1,0 +1,66 @@
+#
+Tiffany
+1
+Did you hear about Tex?
+1
+Yes, I reported him dead
+1
+He died in his home, why were you there?
+1
+I was driving by and saw a broken window and blood and investigated
+1
+This would explain your DNA at the scene and on the victim?
+1
+Yes, I suppose it would
+1
+Can anyone else confirm that you were just driving by?
+1
+Probably not
+1
+did you know the victim?
+1
+No, I don't live in the area
+1
+Why were you in the area?
+1
+I was driving through on the way to visit relatives
+1
+#
+Jackson
+1
+Did you hear about Tex?
+1
+Yes, he was a good friend
+1
+You were the last person to see him alive, correct?
+1
+Yes, I left his house at around 9:00AM and he was still alive
+1
+Do you suspect anyone would want him dead?
+1
+No, he was a great guy
+1
+What were you doing at his house?
+1
+We were just playing chess and talking
+1
+#
+Theodore
+1
+Did you hear about Tex?
+1
+Yes, he's my brother
+1
+You were away at the time of the murder, correct?
+1
+Yes
+1
+Where were you?
+1
+I was at my fiance's house spending time with her
+1
+Did you think anyone was out to get your brother?
+1
+Not particularly no
+1
+#
