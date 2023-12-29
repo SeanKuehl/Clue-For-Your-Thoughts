@@ -4,7 +4,20 @@ extends Control
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	var content = Settings.ReadLinesFromFile(Settings.caseDirectory+"CaseFacts.txt")
-	ShowFacts(content)
+	
+	if EmptyFile(content):
+		$FactsLabel.text = "No significant case facts to show"
+		
+	else:
+		ShowFacts(content)
+
+
+func EmptyFile(content):
+	
+	if content[0] == "" or content[0] == " ":
+		return true
+	else:
+		return false
 
 
 func ShowFacts(content):

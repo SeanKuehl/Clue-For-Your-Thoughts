@@ -8,11 +8,25 @@ var imageIndex = 0
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	var content = Settings.ReadLinesFromFile(Settings.caseDirectory+"Evidence.txt")
-	ReadPictures(content)
-	imageDir = Settings.caseDirectory+"Images/"
 	
-	$EvidenceImage.texture = load(imageDir+imageList[imageIndex])
-	$EvidenceDescription.text = descriptionList[imageIndex]
+	if EmptyFile(content):
+		$EvidenceDescription.text = "No Evidence to display"
+		$EvidenceImage.visible = false
+	else:
+	
+		ReadPictures(content)
+		imageDir = Settings.caseDirectory+"Images/"
+		
+		$EvidenceImage.texture = load(imageDir+imageList[imageIndex])
+		$EvidenceDescription.text = descriptionList[imageIndex]
+
+
+func EmptyFile(content):
+	
+	if content[0] == "" or content[0] == " ":
+		return true
+	else:
+		return false
 
 
 func ReadPictures(content):
