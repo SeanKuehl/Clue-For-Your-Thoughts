@@ -1,0 +1,62 @@
+#
+Ruby
+1
+Did you hear about Enrique?
+1
+Yes, we had known each other for years
+1
+How did you come to know Enrique?
+1
+I would rather not say
+1
+Did you know anyone who might have wanted him dead?
+1
+I would rather not say
+1
+Where were you at the time of the murder?
+1
+I would rather not say
+1
+Are you prepared to tell us anything?
+1
+I would rather not say
+1
+#
+James
+1
+Did you hear about Enrique?
+1
+Yes, we went to church together
+1
+Did you know anyone who might have wanted him dead?
+1
+No, he was mostly a man of his faith
+1
+Where were you at the time of the murder?
+1
+I was praying at home
+1
+You had an ongoing dispute with him. What was it about?
+1
+It was just a minor dispute about scripture
+1
+#
+Bill
+1
+Did you hear about Enrique?
+1
+Yes, I did some work on his property
+1
+What kind of work did you do for him?
+1
+I worked on one of his trees. I work as an arborist
+1
+Did you know anyone who would want to kill him?
+1
+No, not really
+1
+Where were you at the time of the murder?
+1
+I was working on another property, the client can confirm it
+1
+#

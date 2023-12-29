@@ -68,3 +68,9 @@ func _on_level_nine_pressed():
 	Settings.caseName = "Artificial Foolishness"
 	Settings.caseDirectory = "res://Assets/Artificial Foolishness/"
 	get_tree().change_scene_to_file("res://GameMenus/MainGameScreen.tscn")
+
+
+func _on_level_ten_pressed():
+	Settings.caseName = "Man Above"
+	Settings.caseDirectory = "res://Assets/ManAbove/"
+	get_tree().change_scene_to_file("res://GameMenus/MainGameScreen.tscn")
