@@ -1,4 +1,4 @@
-Richard,0
+Rchard,0
 Stacy,0
 Reginald,1
 Suicide,0

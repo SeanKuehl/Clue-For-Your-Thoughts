@@ -1,7 +1,7 @@
 #
 Richard and Tessa
 1
-Richard: I said I’m sorry, can we just get past this!
+Richard: I said I'm sorry, can we just get past this!
 1
 Tessa: Hell no, I still have way too many questions
 1
@@ -9,13 +9,13 @@ Richard: Do you still think it was meant for another girl?
 1
 Tessa: Yes!
 1
-Richard: It’s not! I swear I thought you would like it
+Richard: It's not! I swear I thought you would like it
 1
 Tessa: Well you were wrong! Dead wrong!
 1
 Richard: Look, can I come over so we can work this out?
 1
-Tessa: Sure, but if we can’t work it out you’re not staying the night
+Tessa: Sure, but if we can't work it out you are not staying the night
 1
 #
 Stacy and Tessa
@@ -28,21 +28,21 @@ Stacy: it was just a little gossip
 1
 Tessa: You told him I screwed my brother!
 1
-Stacy: Oh come on, it’s not that bad
+Stacy: Oh come on, it's not that bad
 1
-Tessa: You’re lucky he’s so patient or someone like you would scare him
+Tessa: You're lucky he's so patient or someone like you would scare him off
 1
 Stacy: what ever could you mean?
 1
 Tessa: A crazy girl that keeps spreading rumors and breaking into my house!
 1
-Stacy: You’re blowing it out of proportion!
+Stacy: You're blowing it out of proportion!
 1
 Tessa: I locked my bedroom door and you stole the spare and walked in on us!
 1
-Stacy: so?
+Stacy: So?
 1
-Tessa: It was my house and neither of us ever let you in!
+Tessa: It is my house and niether of us ever let you in!
 1
 Stacy: Whatever, not like you can stop me
 1
@@ -51,21 +51,20 @@ Reginald and Tessa
 1
 Tessa: Reginald, turn on the lights
 1
-Reginald: I can’t do that, they are not connected
+Reginald: I can't do that, they are not connected
 1
-Tessa: You’re not a very good smart home assistant are you?
+Tessa: You're not a very good smart home assistant are you?
 1
-Reginald: Command not recognized
+Reginald: command not recognized
 1
-Tessa: You can’t even set the smart oven to the right temperature
+Tessa: you can't even set the smart oven to the right temperature
 1
-Reginald: Maybe if you didn’t drunkenly slur I could’ve heard you better
+Reginald: Maybe if you didn't drunkenly slur I could've heard you better
 1
 Tessa: Was that attitude from a fancy toaster?
 1
 Reginald: No mam, reality
 1
-Tessa: Well toaster, you’re stuck with me no matter what
+Tessa: Well toaster, you're stuck with me no matter what
 1
 #
-

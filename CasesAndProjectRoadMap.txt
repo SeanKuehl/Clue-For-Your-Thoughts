@@ -1,6 +1,5 @@
 cases to add:
 -there are interviews from four people, but the actual killer is one of their son's who turned on a smart blender with his hacking skills and killed the guy(you know by something the father says about him)
--a case where something visual in one of the evidence pictures leads you to the killer
 -a case where someone immediatly confesses to the crime but is actually protecting for someone(the person you least expect)
 -a case where someone did the crime but it was during a split personality disorder thing so they tell the truth and don't remember
 -a case where there is this obvious suspect guy who is framing this calm peaceful girl but there's something that tells you it is actually him
@@ -10,7 +9,6 @@ cases to add:
 
 
 TODO:
--artificial foolishness case is missing some chatlogs!!!
 -add gallery of images from successfully completed cases and showing completed cases on case selection screen(remember text file read/write on executable thing!)
 -add music to menus
 -make and add logo to main menu
