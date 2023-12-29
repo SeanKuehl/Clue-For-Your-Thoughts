@@ -5,7 +5,7 @@ extends Control
 func _ready():
 	$CaseTitle.text = Settings.caseName
 	
-	var content = Settings.ReadLinesFromFile(Settings.caseDirectory+"/General.txt")
+	var content = Settings.ReadLinesFromFile(Settings.caseDirectory+"General.txt")
 	
 	$CaseDescription.text = DisplayGeneral(content)
 	

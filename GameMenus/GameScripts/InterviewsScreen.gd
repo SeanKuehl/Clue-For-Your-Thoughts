@@ -7,7 +7,7 @@ var currentInterviewScrollIndex = 1
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	var content = Settings.ReadLinesFromFile(Settings.caseDirectory+"/Interviews.txt")
+	var content = Settings.ReadLinesFromFile(Settings.caseDirectory+"Interviews.txt")
 	interviewList = ParseInterviews(content)
 	PlaceInterviewObjects(interviewList)
 

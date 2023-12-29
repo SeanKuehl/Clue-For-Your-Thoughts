@@ -3,7 +3,7 @@ extends Control
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	var content = Settings.ReadLinesFromFile(Settings.caseDirectory+"/CaseFacts.txt")
+	var content = Settings.ReadLinesFromFile(Settings.caseDirectory+"CaseFacts.txt")
 	ShowFacts(content)
 
 

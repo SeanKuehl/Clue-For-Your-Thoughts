@@ -6,7 +6,7 @@ var accusationList = []
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	var content = Settings.ReadLinesFromFile(Settings.caseDirectory+"/Accuse.txt")
+	var content = Settings.ReadLinesFromFile(Settings.caseDirectory+"Accuse.txt")
 	accusationList = GatherAccuses(content)
 	PlaceAccuseObjects(accusationList)
 
