@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://br1h3j62rqtao"
-path="res://.godot/imported/toaster.png-10e04247858df24817740783c2c467bf.ctex"
+uid="uid://bj6i65ueydc48"
+path="res://.godot/imported/ManAbove.png-f1edc3cb61ddce40e6b60f988f31a7a9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/KillerRecipe/Images/toaster.png"
-dest_files=["res://.godot/imported/toaster.png-10e04247858df24817740783c2c467bf.ctex"]
+source_file="res://Assets/GalleryImages/ManAbove.png"
+dest_files=["res://.godot/imported/ManAbove.png-f1edc3cb61ddce40e6b60f988f31a7a9.ctex"]
 
 [params]
 
