@@ -1,0 +1,62 @@
+#
+Phyllis
+1
+Did you hear about Joseph?
+1
+Of course, someone like that is all over the news
+1
+Do you know why you would be implicated in his suicide note?
+1
+No, but I am a local actress. Lots of people have heard of me
+1
+You claim to not know Joseph?
+1
+I've heard of his crimes but no I don't associate with scum
+1
+Do you have any idea who might want him dead?
+1
+Besdies the police or a criminal rival, no idea
+1
+Where were you at the time of the death?
+1
+Recording takes for an upcoming TV series.
+1
+#
+Ronny
+1
+Did you hear about Joseph?
+1
+Yeah he's an old pal of mine
+1
+You were his accomplice for many of his crimes, correct?
+1
+Yeah but there's no charges on me right now are there?
+1
+His body is missing. Do you know about that?
+1
+Even if I did I wouldn't tell you
+1
+Not even for a reward?
+1
+Screw you, I ain't no snitch
+1
+#
+Flannigan
+1
+Did you hear about Joseph?
+1
+Yes, I've heard about him
+1
+You've been asking around about Joseph a lot. Any reason for that?
+1
+I'm just a curious citizen, that's all
+1
+Where were you at the time of the death?
+1
+I was in ol' Boston
+1
+What were you doing at that time?
+1
+I was spending time with a fine lass
+1
+#

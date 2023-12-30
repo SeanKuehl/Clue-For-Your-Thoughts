@@ -119,6 +119,22 @@ offset_right = 437.0
 offset_bottom = 535.0
 text = "Headlines"
 
+[node name="LevelTwelve" type="Button" parent="."]
+layout_mode = 0
+offset_left = 502.0
+offset_top = 455.0
+offset_right = 682.0
+offset_bottom = 541.0
+text = "Living Legend"
+
+[node name="LevelThirteen" type="Button" parent="."]
+layout_mode = 0
+offset_left = 734.0
+offset_top = 462.0
+offset_right = 918.0
+offset_bottom = 545.0
+text = "Tick Tock"
+
 [connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]
 [connection signal="pressed" from="LevelOne" to="." method="_on_level_one_pressed"]
 [connection signal="pressed" from="LevelTwo" to="." method="_on_level_two_pressed"]
@@ -131,3 +147,5 @@ text = "Headlines"
 [connection signal="pressed" from="LevelNine" to="." method="_on_level_nine_pressed"]
 [connection signal="pressed" from="LevelTen" to="." method="_on_level_ten_pressed"]
 [connection signal="pressed" from="LevelEleven" to="." method="_on_level_eleven_pressed"]
+[connection signal="pressed" from="LevelTwelve" to="." method="_on_level_twelve_pressed"]
+[connection signal="pressed" from="LevelThirteen" to="." method="_on_level_thirteen_pressed"]

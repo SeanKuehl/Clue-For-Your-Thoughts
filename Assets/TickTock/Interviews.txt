@@ -1,0 +1,70 @@
+#
+Felicia
+1
+Did you hear about Damian?
+1
+Yes, we were former business partners
+1
+Did you visit his home the day of the murder?
+1
+Yes, I was there between 3:30 and 3:45PM
+1
+You're certain those are the exact times?
+1
+Oh I'm very certain. I'm an enthusiast for this sort of thing
+1
+What are you an enthusiast of exactly?
+1
+Time pieces
+1
+Did you know anyone who would want him dead?
+1
+Several, but Espinoza is the only one who would make good on it
+1
+What makes you say that?
+1
+Something is just off about him, that's all
+1
+What were you doing there the day of the murder?
+1
+I was picking up the generator from the property, there's only one
+1
+#
+Espinoza
+1
+Did you hear about Damian?
+1
+Yes we had quite the history
+1
+Did you visit him the day of the murder?
+1
+Yes I was there from 2-3PM
+1
+Did you or anyone else want him dead that you know of?
+1
+He's crossed a lot of people but I didn't think he'd end up dead
+1
+You say you're the last one to see him alive, correct?
+1
+Yes, when I left he was alive
+1
+#
+Parry
+1
+Did you hear about Damian?
+1
+Yes, he crossed me in business a while ago
+1
+Were you at his home the day of the murder?
+1
+Yes I was there around 1PM
+1
+What were you doing there?
+1
+I was picking up the farm's generator
+1
+Do you know anyone who might want him dead?
+1
+No one outside of us
+1
+#

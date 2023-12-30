@@ -1,0 +1,3 @@
+Phyllis,0
+Flannigan,1
+Ronny,0

@@ -80,3 +80,15 @@ func _on_level_eleven_pressed():
 	Settings.caseName = "Headlines"
 	Settings.caseDirectory = "res://Assets/Headlines/"
 	get_tree().change_scene_to_file("res://GameMenus/MainGameScreen.tscn")
+
+
+func _on_level_twelve_pressed():
+	Settings.caseName = "Living Legend"
+	Settings.caseDirectory = "res://Assets/LivingLegend/"
+	get_tree().change_scene_to_file("res://GameMenus/MainGameScreen.tscn")
+
+
+func _on_level_thirteen_pressed():
+	Settings.caseName = "Tick Tock"
+	Settings.caseDirectory = "res://Assets/TickTock/"
+	get_tree().change_scene_to_file("res://GameMenus/MainGameScreen.tscn")
