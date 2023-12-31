@@ -92,3 +92,7 @@ func _on_level_thirteen_pressed():
 	Settings.caseName = "Tick Tock"
 	Settings.caseDirectory = "res://Assets/TickTock/"
 	get_tree().change_scene_to_file("res://GameMenus/MainGameScreen.tscn")
+
+
+
+

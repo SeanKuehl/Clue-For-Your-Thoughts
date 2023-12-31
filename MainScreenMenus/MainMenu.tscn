@@ -44,3 +44,4 @@ text = "Gallery"
 
 [connection signal="pressed" from="PlayButton" to="." method="_on_play_button_pressed"]
 [connection signal="pressed" from="QuitButton" to="." method="_on_quit_button_pressed"]
+[connection signal="pressed" from="GalleryButton" to="." method="_on_gallery_button_pressed"]
