@@ -1,4 +1,2 @@
-56 Thomas Pason has been murdered. We've brought in all suspects for questioning.
-There was an eye witness to the murder, unfortunatly they are a psychiatric patient.
-We've brought them in for questioning anyways. The key to solving this murder will
-be decrypting the babelings of the eye witness.
+56 Thomas Pason has been murdered. We've brought in all suspects for questioning. There was an eye witness to the murder, unfortunatly they are a psychiatric patient.
+We've brought them in for questioning anyways. The key to solving this murder will be decrypting the babelings of the eye witness.

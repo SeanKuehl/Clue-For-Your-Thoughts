@@ -13,7 +13,7 @@ Messages suggest you were fighting, is that true?
 1
 Yes, I got her a gift she found insulting, we were trying to work through it
 1
-Were you there the night of the murder?
+Were you there the night of the death?
 1
 I was but I swear I didn't kill her!
 1
@@ -42,7 +42,7 @@ Yes, but that was a while ago. She made such a big deal out of it
 1
 Why were you there?
 1
-I was trying to put hair removed into her shampoo
+I was trying to put hair remover into her shampoo
 1
 How old are you?
 1

@@ -22,7 +22,7 @@ func DisplayGeneral(content):
 	var result = ""
 	
 	for x in content:
-		result += x+"\n"
+		result += x+" "
 		
 	return result
 

@@ -43,9 +43,9 @@ horizontal_alignment = 1
 
 [node name="CaseDescription" type="Label" parent="."]
 layout_mode = 0
-offset_left = 353.0
+offset_left = 268.0
 offset_top = 265.0
-offset_right = 1774.0
+offset_right = 1689.0
 offset_bottom = 967.0
 label_settings = SubResource("LabelSettings_vin24")
 horizontal_alignment = 1

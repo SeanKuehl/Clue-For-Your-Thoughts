@@ -1,4 +1,2 @@
-Hello detective. Since it's your first day on the job let's get you up to speed.
-Here is a simple case of who stole cookies from the cookie jar. Look through all
-the evidence available to you and once you know for certain who stole the cookies
-from the cookie jar, accuse them and complete the case. Remember, every detail matters!
+Hello detective. Since it's your first day on the job let's get you up to speed. Here is a simple case of who stole cookies from the cookie jar. Look through all
+the evidence available to you and once you know for certain who stole the cookies from the cookie jar, accuse them and complete the case. Remember, every detail matters!
