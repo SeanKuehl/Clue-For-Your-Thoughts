@@ -1,7 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://c32s8i4orrlrx"]
+[gd_scene load_steps=4 format=3 uid="uid://c32s8i4orrlrx"]
 
 [ext_resource type="Script" path="res://MainScreenMenus/MainScreenScripts/CaseSelectScreen.gd" id="1_mmd3t"]
 [ext_resource type="Theme" uid="uid://2u7lnkn35v0c" path="res://GlobalTheme.tres" id="1_y4jaw"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ko4pb"]
+font_size = 30
 
 [node name="CaseSelectScreen" type="Control"]
 layout_mode = 3
@@ -32,108 +35,118 @@ text = "<"
 
 [node name="LevelOne" type="Button" parent="."]
 layout_mode = 0
-offset_left = 631.0
-offset_top = 162.0
-offset_right = 804.0
-offset_bottom = 248.0
+offset_left = 942.0
+offset_top = 156.0
+offset_right = 1115.0
+offset_bottom = 242.0
 text = "Cookie Jar Case"
 
 [node name="LevelTwo" type="Button" parent="."]
 layout_mode = 0
-offset_left = 272.0
-offset_top = 368.0
-offset_right = 431.0
-offset_bottom = 443.0
+offset_left = 312.0
+offset_top = 370.0
+offset_right = 471.0
+offset_bottom = 445.0
 text = "Love Triangle"
 
 [node name="LevelThree" type="Button" parent="."]
 layout_mode = 0
-offset_left = 510.0
-offset_top = 361.0
-offset_right = 692.0
-offset_bottom = 445.0
+offset_left = 699.0
+offset_top = 357.0
+offset_right = 881.0
+offset_bottom = 441.0
 text = "Shocking Conclusion"
 
 [node name="LevelFour" type="Button" parent="."]
 layout_mode = 0
-offset_left = 759.0
-offset_top = 358.0
-offset_right = 953.0
-offset_bottom = 431.0
+offset_left = 1167.0
+offset_top = 362.0
+offset_right = 1361.0
+offset_bottom = 435.0
 text = "Dirty Laundry"
 
 [node name="LevelFive" type="Button" parent="."]
 layout_mode = 0
-offset_left = 1029.0
-offset_top = 354.0
-offset_right = 1202.0
-offset_bottom = 430.0
+offset_left = 1571.0
+offset_top = 371.0
+offset_right = 1744.0
+offset_bottom = 447.0
 text = "Famous Forever"
 
 [node name="LevelSix" type="Button" parent="."]
 layout_mode = 0
-offset_left = 263.0
-offset_top = 501.0
-offset_right = 435.0
-offset_bottom = 583.0
+offset_left = 289.0
+offset_top = 612.0
+offset_right = 461.0
+offset_bottom = 694.0
 text = "Final Apparrel"
 
 [node name="LevelSeven" type="Button" parent="."]
 layout_mode = 0
-offset_left = 516.0
-offset_top = 501.0
-offset_right = 696.0
-offset_bottom = 581.0
+offset_left = 693.0
+offset_top = 612.0
+offset_right = 873.0
+offset_bottom = 692.0
 text = "Black and White"
 
 [node name="LevelEight" type="Button" parent="."]
 layout_mode = 0
-offset_left = 770.0
-offset_top = 491.0
-offset_right = 949.0
-offset_bottom = 581.0
+offset_left = 1163.0
+offset_top = 610.0
+offset_right = 1342.0
+offset_bottom = 700.0
 text = "Killer Recipe"
 
 [node name="LevelNine" type="Button" parent="."]
 layout_mode = 0
-offset_left = 1020.0
-offset_top = 486.0
-offset_right = 1203.0
-offset_bottom = 575.0
+offset_left = 1558.0
+offset_top = 624.0
+offset_right = 1741.0
+offset_bottom = 713.0
 text = "Artificial Foolishness
 "
 
 [node name="LevelTen" type="Button" parent="."]
 layout_mode = 0
-offset_left = 1017.0
-offset_top = 643.0
-offset_right = 1199.0
-offset_bottom = 734.0
+offset_left = 1555.0
+offset_top = 864.0
+offset_right = 1737.0
+offset_bottom = 955.0
 text = "Man Above"
 
 [node name="LevelEleven" type="Button" parent="."]
 layout_mode = 0
-offset_left = 263.0
-offset_top = 645.0
-offset_right = 437.0
-offset_bottom = 728.0
+offset_left = 282.0
+offset_top = 860.0
+offset_right = 456.0
+offset_bottom = 943.0
 text = "Headlines"
 
 [node name="LevelTwelve" type="Button" parent="."]
 layout_mode = 0
-offset_left = 511.0
-offset_top = 646.0
-offset_right = 691.0
-offset_bottom = 732.0
+offset_left = 666.0
+offset_top = 869.0
+offset_right = 846.0
+offset_bottom = 955.0
 text = "Living Legend"
 
 [node name="LevelThirteen" type="Button" parent="."]
 layout_mode = 0
-offset_left = 769.0
-offset_top = 644.0
-offset_right = 953.0
-offset_bottom = 727.0
+offset_left = 1147.0
+offset_top = 869.0
+offset_right = 1331.0
+offset_bottom = 952.0
 text = "Tick Tock"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 943.0
+offset_top = 83.0
+offset_right = 1119.0
+offset_bottom = 146.0
+text = "Tutorial"
+label_settings = SubResource("LabelSettings_ko4pb")
+horizontal_alignment = 1
 
 [connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]
 [connection signal="pressed" from="LevelOne" to="." method="_on_level_one_pressed"]

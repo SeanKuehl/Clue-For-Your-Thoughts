@@ -1,7 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://dpnsbkpjyx02n"]
+[gd_scene load_steps=6 format=3 uid="uid://dpnsbkpjyx02n"]
 
 [ext_resource type="Theme" uid="uid://2u7lnkn35v0c" path="res://GlobalTheme.tres" id="1_1jvkk"]
 [ext_resource type="Script" path="res://MainScreenMenus/MainScreenScripts/MainMenu.gd" id="1_om7b7"]
+[ext_resource type="Texture2D" uid="uid://cwmkaacxihgaf" path="res://Assets/Menus/logo.png" id="3_kdb4h"]
+[ext_resource type="Texture2D" uid="uid://byiaqjqciwdwb" path="res://Assets/Menus/glass.png" id="4_wyoqb"]
+[ext_resource type="Texture2D" uid="uid://cr5lb6v1a8hmx" path="res://Assets/Menus/question.png" id="5_8o3u2"]
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -20,27 +23,39 @@ offset_bottom = 1080.0
 
 [node name="PlayButton" type="Button" parent="."]
 layout_mode = 0
-offset_left = 861.0
-offset_top = 304.0
-offset_right = 1134.0
-offset_bottom = 404.0
+offset_left = 869.0
+offset_top = 336.0
+offset_right = 1142.0
+offset_bottom = 436.0
 text = "Play"
 
 [node name="QuitButton" type="Button" parent="."]
 layout_mode = 0
-offset_left = 868.0
-offset_top = 607.0
-offset_right = 1144.0
-offset_bottom = 689.0
+offset_left = 860.0
+offset_top = 789.0
+offset_right = 1136.0
+offset_bottom = 871.0
 text = "Quit"
 
 [node name="GalleryButton" type="Button" parent="."]
 layout_mode = 0
 offset_left = 875.0
-offset_top = 461.0
+offset_top = 543.0
 offset_right = 1137.0
-offset_bottom = 548.0
+offset_bottom = 630.0
 text = "Gallery"
+
+[node name="Logo" type="Sprite2D" parent="."]
+position = Vector2(1012, 158)
+texture = ExtResource("3_kdb4h")
+
+[node name="Glass" type="Sprite2D" parent="."]
+position = Vector2(375, 616)
+texture = ExtResource("4_wyoqb")
+
+[node name="Question" type="Sprite2D" parent="."]
+position = Vector2(1571, 622)
+texture = ExtResource("5_8o3u2")
 
 [connection signal="pressed" from="PlayButton" to="." method="_on_play_button_pressed"]
 [connection signal="pressed" from="QuitButton" to="." method="_on_quit_button_pressed"]

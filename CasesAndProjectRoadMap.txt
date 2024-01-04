@@ -1,5 +1,4 @@
 TODO:
--add gallery of images from successfully completed cases and showing completed cases on case selection screen(remember text file read/write on executable thing!)
 -add music to menus
 -make and add logo to main menu
 -align buttons and other visual items so that nothing looks off
