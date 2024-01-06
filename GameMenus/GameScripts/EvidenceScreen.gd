@@ -4,9 +4,13 @@ var imageDir = ""
 var imageList = []
 var descriptionList = []
 var imageIndex = 0
+var streamLoaded = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	$AudioStreamPlayer2D.stream = load(Settings.GetGameMusic())
+	streamLoaded = true
+	
 	var content = Settings.ReadLinesFromFile(Settings.caseDirectory+"Evidence.txt")
 	
 	if EmptyFile(content):
@@ -19,6 +23,12 @@ func _ready():
 		
 		$EvidenceImage.texture = load(imageDir+imageList[imageIndex])
 		$EvidenceDescription.text = descriptionList[imageIndex]
+
+
+func _process(delta):
+	if streamLoaded:
+		$AudioStreamPlayer2D.play()
+		streamLoaded = false
 
 
 func EmptyFile(content):
@@ -65,3 +75,7 @@ func _on_right_button_pressed():
 	if imageIndex < maxIndex:
 		imageIndex += 1
 		LoadPicture()
+
+
+func _on_audio_stream_player_2d_finished():
+	streamLoaded = true

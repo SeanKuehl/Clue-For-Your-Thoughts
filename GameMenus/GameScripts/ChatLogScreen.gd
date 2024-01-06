@@ -4,16 +4,22 @@ const interviewChoiceObject = preload("res://GameMenus/InterviewChoice.tscn")
 var interviewList = []
 var currentInterview = ""
 var currentInterviewScrollIndex = 1
+var streamLoaded = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	$AudioStreamPlayer2D.stream = load(Settings.GetGameMusic())
+	streamLoaded = true
+	
 	var content = Settings.ReadLinesFromFile(Settings.caseDirectory+"ChatLogs.txt")
 	interviewList = ParseInterviews(content)
 	PlaceInterviewObjects(interviewList)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	pass
+	if streamLoaded:
+		$AudioStreamPlayer2D.play()
+		streamLoaded = false
 	
 	
 func PlaceInterviewObjects(interviews):
@@ -99,3 +105,7 @@ func _on_scroll_down_pressed():
 	if currentInterview != "":
 		currentInterviewScrollIndex += 1
 		ScrollInterview()
+
+
+func _on_audio_stream_player_2d_finished():
+	streamLoaded = true

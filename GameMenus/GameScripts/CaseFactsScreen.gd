@@ -1,8 +1,11 @@
 extends Control
 
-
+var streamLoaded = false
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	$AudioStreamPlayer2D.stream = load(Settings.GetGameMusic())
+	streamLoaded = true
+	
 	var content = Settings.ReadLinesFromFile(Settings.caseDirectory+"CaseFacts.txt")
 	
 	if EmptyFile(content):
@@ -10,6 +13,12 @@ func _ready():
 		
 	else:
 		ShowFacts(content)
+
+
+func _process(delta):
+	if streamLoaded:
+		$AudioStreamPlayer2D.play()
+		streamLoaded = false
 
 
 func EmptyFile(content):
@@ -44,3 +53,7 @@ func ShowFacts(content):
 
 func _on_back_button_pressed():
 	get_tree().change_scene_to_file("res://GameMenus/MainGameScreen.tscn")
+
+
+func _on_audio_stream_player_2d_finished():
+	streamLoaded = true
