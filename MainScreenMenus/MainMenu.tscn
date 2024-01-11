@@ -23,26 +23,26 @@ offset_bottom = 1080.0
 
 [node name="PlayButton" type="Button" parent="."]
 layout_mode = 0
-offset_left = 869.0
-offset_top = 336.0
-offset_right = 1142.0
-offset_bottom = 436.0
+offset_left = 885.0
+offset_top = 375.0
+offset_right = 1158.0
+offset_bottom = 475.0
 text = "Play"
 
 [node name="QuitButton" type="Button" parent="."]
 layout_mode = 0
-offset_left = 860.0
+offset_left = 876.0
 offset_top = 789.0
-offset_right = 1136.0
+offset_right = 1152.0
 offset_bottom = 871.0
 text = "Quit"
 
 [node name="GalleryButton" type="Button" parent="."]
 layout_mode = 0
-offset_left = 875.0
-offset_top = 543.0
-offset_right = 1137.0
-offset_bottom = 630.0
+offset_left = 885.0
+offset_top = 590.0
+offset_right = 1147.0
+offset_bottom = 677.0
 text = "Gallery"
 
 [node name="Logo" type="Sprite2D" parent="."]

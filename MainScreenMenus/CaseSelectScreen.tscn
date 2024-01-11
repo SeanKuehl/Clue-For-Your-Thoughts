@@ -124,10 +124,10 @@ text = "Headlines"
 
 [node name="LevelTwelve" type="Button" parent="."]
 layout_mode = 0
-offset_left = 666.0
-offset_top = 869.0
-offset_right = 846.0
-offset_bottom = 955.0
+offset_left = 702.0
+offset_top = 877.0
+offset_right = 882.0
+offset_bottom = 963.0
 text = "Living Legend"
 
 [node name="LevelThirteen" type="Button" parent="."]
