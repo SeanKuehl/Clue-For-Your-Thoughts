@@ -9,8 +9,14 @@ var universalIndex = 0
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	var galleryFile = Settings.ReadLinesFromFile("user://WonCases.txt")
-	PopulateImageAndDescriptionLists(galleryFile)
+	if FileAccess.file_exists("user://WonCases.txt"):
+		var galleryFile = Settings.ReadLinesFromFile("user://WonCases.txt")
+		PopulateImageAndDescriptionLists(galleryFile)
+	else:
+		Settings.CreateSaveFile("user://WonCases.txt")
+	
+		
+		
 	
 	if len(descriptionList) > 0:
 		$GalleryImage.visible = true
@@ -55,3 +61,10 @@ func _on_right_button_pressed():
 		universalIndex += 1
 		UpdateImageAndLabel()
 	
+
+
+
+
+
+
+

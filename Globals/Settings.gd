@@ -13,6 +13,24 @@ var mainMusic = []
 var rng = RandomNumberGenerator.new()
 
 
+func CreateSaveFile(fileName):
+	var file = FileAccess.open(fileName, FileAccess.WRITE)
+	file.store_line("Cookie Jar Case,CookieJarCase.png,A cookie for the tutorial,0")
+	file.store_line("Love Triangle,LoveTriangle.png,Love sucks and stabs,0")
+	file.store_line("Shocking Conclusion,ShockingConclusion.png,A truly electrifying case,0")
+	file.store_line("Dirty Laundry,DirtyLaundry.png,Oh no not my secret!,0")
+	file.store_line("Famous Forever,FamousForever.png,Was it really worth numbers on a screen?,0")
+	file.store_line("Final Apparrel,FinalApparell.png,His words were very fashionable,0")
+	file.store_line("Black and White,BlackAndWhite.png,I love penguins don't you?,0")
+	file.store_line("Killer Recipe,KillerRecipe.png,Flour and Fiery!,0")
+	file.store_line("Artificial Foolishness,ArtificialFoolishness.png,A truly modern murder,0")
+	file.store_line("Man Above,ManAbove.png,Cross for your thoughts?,0")
+	file.store_line("Headlines,Headlines.png,Extra! Extra!,0")
+	file.store_line("Living Legend,LivingLegend.png,Almost got away with it too!,0")
+	file.store_line("Tick Tock,TickTock.png,Only time will tell,0")
+	file.close()
+	
+
 func ReadLinesFromFile(fileName):
 	
 	var file = FileAccess.open(fileName, FileAccess.READ)

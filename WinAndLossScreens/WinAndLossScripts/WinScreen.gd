@@ -16,10 +16,21 @@ func _process(delta):
 	
 	
 func WriteSaveFile(listToWrite):
-	var file = FileAccess.open("user://WonCases.txt", FileAccess.WRITE)
 	
-	for line in listToWrite:
-		file.store_line(line)
+	if FileAccess.file_exists("user://WonCases.txt"):
+	
+		var file = FileAccess.open("user://WonCases.txt", FileAccess.WRITE)
+		
+		for line in listToWrite:
+			file.store_line(line)
+			
+	else:
+		Settings.CreateSaveFile("user://WonCases.txt")
+		
+		var file = FileAccess.open("user://WonCases.txt", FileAccess.WRITE)
+		
+		for line in listToWrite:
+			file.store_line(line)
 	
 func UpdateSaveFile(content):
 	
