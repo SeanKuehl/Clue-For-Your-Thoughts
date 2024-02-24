@@ -3,11 +3,15 @@ extends Control
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	
-	var galleryFile = Settings.ReadLinesFromFile("user://WonCases.txt")
-	var newContent = UpdateSaveFile(galleryFile)
-	WriteSaveFile(newContent)
-	
+	if FileAccess.file_exists("user://WonCases.txt"):
+		var galleryFile = Settings.ReadLinesFromFile("user://WonCases.txt")
+		var newContent = UpdateSaveFile(galleryFile)
+		WriteSaveFile(newContent)
+	else:
+		Settings.CreateSaveFile("user://WonCases.txt")
+		var galleryFile = Settings.ReadLinesFromFile("user://WonCases.txt")
+		var newContent = UpdateSaveFile(galleryFile)
+		WriteSaveFile(newContent)
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
